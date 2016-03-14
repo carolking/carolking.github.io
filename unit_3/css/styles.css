@@ -1,0 +1,12 @@
+body {
+	background-image: url("images/people.jpg");
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+h1 {background: green;
+}
+
+h2, h3 {
+	font-family: Times;
+}
