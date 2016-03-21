@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+	background-image: url("images/people.jpg");
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+h1	{font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+}
+
+
+h2 {background: green;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-color: white;
+}
+
+h3 {
+	font-family: Times;
+}
