@@ -1,23 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("images/people.jpg");
 	background-color: #ffffff;
 	font-family: Arial, sans-serif;
 }
-
-h1	{font-family: 'Open Sans', sans-serif;
+section#splash {
+	background-image: url("../images/people.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+}
+section#splash div {
+	padding: 10em 0 0 30em;
+	width:1200px;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 3em;
+	background:blueviolet;
+	color:#fff;
+	padding:1em;
 }
 
 
-h2 {background: green;
+h2 {
+	background: green;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
-	font-color: white;
+	color: white;
+	padding:1em;
 }
 
 h3 {
-	font-family: Times;
+	font-family: Times, serif;
 }
