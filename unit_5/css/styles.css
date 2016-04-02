@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #FFED74;
+}
+
+
+div.wrapper {
+	background-color: yellow;
+	margin: 20px;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+section#splash {
+	background-image: url("../images/people.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+}
+section#splash div {
+	background-color: #FFE2B8;
+	padding: 10em 20 0 30em;
+	width:1200px;
+}
+
+section#why {
+	background-color: #FFE2B8;
+}
+
+section#solutions {
+	background-color: #FFE2B8;
+}
+
+section#contact {
+	background-color: #FFE2B8;
+}
+
+
+nav#topnav {
+	background-color: #E8C66A;
+}
+
+
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	background:blueviolet;
+	color:#fff;
+	padding:1em;
+}
+
+
+h2 {
+	background: green;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	padding:1em;
+}
+
+h3 {
+	font-family: Times, serif;
+}
