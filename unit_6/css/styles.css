@@ -17,6 +17,14 @@ div.wrapper {
 	border:2px solid black;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
 section#splash {
 	background-image: url("../images/people.jpg");
@@ -32,7 +40,31 @@ section#splash div {
 
 section#why {
 	background-color: #FFE2B8;
+
 }
+
+#why {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
 
 section#solutions {
 	background-color: #FFE2B8;
