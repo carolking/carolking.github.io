@@ -7,15 +7,50 @@ body {
 }
 
 header {
-	background-color: #FFED74;
+	background-color: white;
+	min-height: 75px;
 }
 
 
 div.wrapper {
 	background-color: yellow;
 	margin: 20px;
-	border:2px solid black;
 }
+
+div#main-text {
+	background-color: none;
+}
+
+div#sub-text {
+	background-color: none;
+}
+
+
+.logos:after {
+	float: left;
+	column-width: 50%;
+	padding: 0px;
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#pwc-logo {
+	display: block;
+	float: left;
+	padding: 10px;
+	color: #9b9b9d;
+}
+
+#google-logo {
+	display: block;
+	float: left;
+	padding: 10px
+}
+
 
 .clearfix:after {
     visibility: hidden;
@@ -27,13 +62,13 @@ div.wrapper {
 }
 
 section#splash {
-	background-image: url("../images/people.jpg");
+	background-image: url("../images/main-hero.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:80vh;
+	height:50vh;
+	padding: 10px;
 }
 section#splash div {
-	background-color: #FFE2B8;
 	padding: 10em 20 0 30em;
 	width:1200px;
 }
@@ -75,17 +110,21 @@ section#contact {
 }
 
 
-nav#topnav {
+nav {
 	background-color: #E8C66A;
+	font-family: Arial, sans-serif;
 }
 
+a {
+	display: block;
+	padding: 10px;
+	float: right;
 
+}
 
-h1{
+h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 3em;
-	background:blueviolet;
-	color:#fff;
 	padding:1em;
 }
 
@@ -100,4 +139,5 @@ h2 {
 
 h3 {
 	font-family: Times, serif;
+	padding:2em;
 }
