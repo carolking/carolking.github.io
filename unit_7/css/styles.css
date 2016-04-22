@@ -8,7 +8,8 @@ body {
 
 header {
 	background-color: white;
-	min-height: 75px;
+	min-height: 80px;
+	padding: .5em 0em 1.7em 0em;
 }
 
 
@@ -19,14 +20,36 @@ div.wrapper {
 
 div#main-text {
 	background-color: none;
-	padding:2em;
+	padding: 2em 2em 1.7em 3em;
 }
 
 div#sub-text {
 	background-color: none;
-	padding:2em;
-	max-width: 600px;
+	padding: 0em 2em 2em 3em;
+	max-width: 700px;
 }
+
+div.section-name {
+	background-color: blue;
+	padding: 1.5em 1.5em 1.5em 5em;
+	opacity: .8;
+}
+
+div#boxes {
+	background: black;
+	padding: 0em 0em 0em 3em;
+}
+
+
+div.solutions {
+	background-color: #b3b3b3;
+	float: left;
+	width: 230px;
+	height: 450px;
+	padding: 2em;
+	margin: 1.2em;
+}
+
 
 #pwc-logo {
 	display: block;
@@ -65,39 +88,49 @@ section#splash div {
 
 section#why {
 	background-color: #FFE2B8;
+	background-image: url("../images/why-this-matters.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:60vh;
+	padding: 0px;
 
-}
-
-#why {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-	background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-	background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
-}
-
-
-section#solutions {
-	background-color: #FFE2B8;
 }
 
 section#contact {
 	background-color: #FFE2B8;
+	background-image: url("../images/contact-us.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:50vh;
 }
+
+
+#why {
+	background: rgba(255,255,255,0.7)
+}
+
+
+#right {
+	background-color: #FFFFFF;
+    padding: 2.5em;
+    margin: 4em 5em 2em 3em;
+    float: right;   
+    width: 35%;
+    opacity: 0.9;
+}
+
+
+section#solutions {
+	background-color: gray;
+	height: 600px;
+}
+
+
+
+img.icons {
+	padding: 0em 0em 0em 0em;
+}
+
 
 
 nav {
@@ -116,17 +149,22 @@ a {
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 3em;
+	font-size: 2.6em;
 }
 
 
 h2 {
-	background: green;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	color: white;
 }
 
 h3 {
-	font-family: Times, serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em;
 }
