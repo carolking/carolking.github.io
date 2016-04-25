@@ -13,9 +13,10 @@ header {
 }
 
 
-div.wrapper {
+.wrapper {
 	background-color: yellow;
-	margin: 20px;
+	max-width:75em;
+	margin:auto;
 }
 
 div#main-text {
@@ -29,12 +30,6 @@ div#sub-text {
 	max-width: 700px;
 }
 
-div.section-name {
-	background-color: blue;
-	padding: 1.5em 1.5em 1.5em 5em;
-	opacity: .8;
-}
-
 div#boxes {
 	background: black;
 	padding: 0em 0em 0em 3em;
@@ -44,10 +39,10 @@ div#boxes {
 div.solutions {
 	background-color: #b3b3b3;
 	float: left;
-	width: 230px;
-	height: 450px;
+	width: 24%;
+	min-height: 21em;
 	padding: 2em;
-	margin: 1.2em;
+	margin: .5%;
 }
 
 
@@ -122,24 +117,14 @@ section#contact {
 
 section#solutions {
 	background-color: gray;
-	height: 600px;
 }
-
-
-
-img.icons {
-	padding: 0em 0em 0em 0em;
-}
-
 
 
 nav {
 	font-family: Arial, sans-serif;
-	display: inline-block;
 	float: right;
 	padding: 1em;
 }
-
 a {
 	display: block;
 	padding: 10px;
@@ -157,6 +142,10 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	color: white;
+	background-color: blue;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	opacity: .8;
+	text-align:center;
 }
 
 h3 {
