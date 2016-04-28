@@ -6,19 +6,19 @@
 </head>
 <body>
 	<!-- HEADER -->
-	<header>
+	<header class="wrapper clearfix">
 		<div class="logos">
 				<img id="logo" src="images/logos.png" alt="logos">
 		</div>
 		<nav>
-			<a name="contact">Contact</a>
-			<a name="solutions">Solutions</a>
-			<a name="why">Why this matters</a>
+			<a href="#contact">Contact</a>
+			<a href="#solutions">Solutions</a>
+			<a href="#why">Why this matters</a>
 		</nav>
 	</header>
 	<!-- 1: SPLASH -->
 	<section id="splash">
-		<div id="main-text">
+		<div id="main-text" class="wrapper clearfix">
 			<h1>Reinvent your business.<br>
 			Secure your future.</h1>
 			<h3>Together, we will enhance trust in information, change how people and organizations work and transform how important problems are solved.</h3>
@@ -26,8 +26,11 @@
 	</section>
 	<!-- 2 - WHY THIS MATTERS -->
 	<section id="why">
-		<h2>Why this matters</h2>
+		<a name="why"></a>
+		<div id="why">
+		</div>
 		<div class="wrapper clearfix">
+		<h2>Why this matters</h2>
 			<div id="right">
 				<h4>The ability to acquire and optimally use technology, information and talent has become a key differentiator in today's world.</h4>
 				<p>It's critical to build and sustain success, compete, and prevent and manage challenges.</p>
@@ -38,8 +41,9 @@
 	</section>
 	<!-- 3 - SOLUTIONS -->
 	<section id="solutions">
-		<h2>Solutions</h2>
 		<div id="boxes" class="wrapper clearfix">
+		<a name="solutions"></a>
+		<h2>Solutions</h2>
 			<!-- 4 BOXES -->
 			<div class="solutions">
 				<img class="icon" src="images/cloud-icon.png" alt="cloud icon">
@@ -68,6 +72,7 @@
 		<div class="wrapper">
 			<div id="left">
 				<h5>Contact us</h5>
+				<a name="contact"></a>
 				<p>For more information, please send us your name and email address</p>
 				<form>
 					<input placeholder="Name" type="text"><br>

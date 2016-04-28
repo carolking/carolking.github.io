@@ -9,18 +9,24 @@ body {
 header {
 	background-color: white;
 	min-height: 100px;
-	padding: 0em 0em 1.7em 0em;
+	padding: 0em 0em 0em 0em;
 }
 
 
 .wrapper {
-	max-width:75em;
+	max-width:75rem;
 	margin:auto;
 }
 
 div#main-text {
 	background-color: none;
 	padding: 2em 40em 1.7em 5em;
+}
+
+div#why {
+	background-color: #37373b;
+	opacity: .9;
+	
 }
 
 div#sub-text {
@@ -65,6 +71,7 @@ section#splash {
 	background-image: url("../images/main-hero.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	background-position: center;
 	height:65vh;
 	padding: 10px;
 }
@@ -78,6 +85,7 @@ section#why {
 	background-image: url("../images/why-this-matters.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	background-position: center;
 	height:75vh;
 	padding: 0px;
 
@@ -88,6 +96,7 @@ section#contact {
 	background-image: url("../images/contact-us.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	background-position: center;
 	height:50vh;
 }
 
@@ -147,7 +156,7 @@ h2 {
 	font-weight: 400;
 	color: white;
 	background-color: #37373b;
-	padding: 1.5em 1.5em 1.5em 3em;
+	padding: 1.5em 1.5em 1.5em 0em;
 	opacity: .9;
 }
 
@@ -162,7 +171,6 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3em;
 	font-weight: 600;
-	color: #382e8a;
 	margin: 0em 0em .8em 0em;
 }
 
@@ -182,5 +190,18 @@ p {
 
 .icon {
 	margin: 0em 0em .8em 0em;
+}
 
+.navlink {
+	font-family: Arial, sans-serif;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+    color: gray;
 }
