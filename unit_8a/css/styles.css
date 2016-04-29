@@ -29,12 +29,6 @@ div#why-box {
 	
 }
 
-div#sub-text {
-	background-color: none;
-	padding: 0em 2em 2em 3em;
-	max-width: 700px;
-}
-
 div#boxes {
 	padding: 0em 0em 0em 0em;
 }
@@ -44,7 +38,7 @@ div.solutions {
 	background-color: #b3b3b3;
 	float: left;
 	width: 23%;
-	min-height: 24em;
+	min-height: 23em;
 	padding: 2em;
 	margin: 0% 2% 5% 0%;
 }
@@ -53,7 +47,7 @@ div.solutions {
 #logo {
 	display: block;
 	float: left;
-	padding: 10px;
+	padding: 1em;
 	color: #9b9b9d;
 	padding: 1em 0em 1.7em 0em;
 }
@@ -77,7 +71,6 @@ section#splash {
 }
 section#splash div {
 	padding: 10em 20 0 30em;
-	width:1200px;
 }
 
 section#why {
@@ -172,7 +165,7 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3em;
 	font-weight: 600;
-	margin: 0em 0em .8em 0em;
+	margin: .5em 0em .8em 0em;
 }
 
 h5 {
